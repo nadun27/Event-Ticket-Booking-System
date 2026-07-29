@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "c6f9aadc-e269-4e12-a5ea-d1e0cd896078",
+      "name": "nadun warshan",
+      "email": "nadun.warshan@gmail.com",
+      "passwordHash": "$2a$10$8IgxjJrztGHOWSZeNdYDJ.ihCiixmRM/M1/McjUH73GxrDStjuas6",
+      "role": "user",
+      "createdAt": "2025-09-24T14:34:06.808Z"
+    },
+    {
+      "id": "c6f9aadc-e269-4e12-a5ea-d1e0cd896079",
+      "name": "admin dash",
+      "email": "admin@gmail.com",
+      "passwordHash":"$2a$10$8IgxjJrztGHOWSZeNdYDJ.ihCiixmRM/M1/McjUH73GxrDStjuas6",
+      "role": "admin",
+      "createdAt": "2025-09-24T14:35:06.808Z"
+    }
+  ]
+  
+}

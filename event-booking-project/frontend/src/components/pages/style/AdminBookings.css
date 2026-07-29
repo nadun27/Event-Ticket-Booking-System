@@ -1,0 +1,77 @@
+.admin-bookings {
+  padding: 2rem;
+}
+
+.admin-bookings h1 {
+  color: #2c3e50;
+  margin-bottom: 2rem;
+}
+
+.bookings-table {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.bookings-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bookings-table th, .bookings-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.bookings-table th {
+  background: #f8f9fa;
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.status-badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status-confirmed {
+  background: #d5f4e6;
+  color: #27ae60;
+}
+
+.status-pending {
+  background: #fef9e7;
+  color: #f39c12;
+}
+
+.status-cancelled {
+  background: #fadbd8;
+  color: #e74c3c;
+}
+
+.status-completed {
+  background: #d6eaf8;
+  color: #3498db;
+}
+
+.status-select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .admin-bookings {
+    padding: 1rem;
+  }
+  
+  .bookings-table {
+    overflow-x: auto;
+  }
+}

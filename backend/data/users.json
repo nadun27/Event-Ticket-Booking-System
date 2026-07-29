@@ -1,0 +1,52 @@
+[
+  {
+    "id": "U001",
+    "username": "john_doe",
+    "email": "john@example.com",
+    "password": "password123",
+    "name": "John Doe",
+    "phone": "+1234567890",
+    "role": "user",
+    "createdAt": "2024-01-15T10:30:00.000Z"
+  },
+  {
+    "id": "U002",
+    "username": "sarah_smith",
+    "email": "sarah@example.com",
+    "password": "password123",
+    "name": "Sarah Smith",
+    "phone": "+1234567891",
+    "role": "user",
+    "createdAt": "2024-01-20T14:20:00.000Z"
+  },
+  {
+    "id": "U003",
+    "username": "mike_johnson",
+    "email": "mike@example.com",
+    "password": "password123",
+    "name": "Mike Johnson",
+    "phone": "+1234567892",
+    "role": "user",
+    "createdAt": "2024-02-05T09:15:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "nadun nadun",
+    "email": "nadun.warshan@gmail.com",
+    "password": "Nadun@123",
+    "phone": "0716441044",
+    "role": "user",
+    "createdAt": "2025-09-24T08:12:38.868Z"
+  },
+
+  {
+  "id": "A001",
+  "username": "admin",
+  "email": "admin@example.com",
+  "password": "Admin@123",
+  "name": "Super Admin",
+  "phone": "+94770000000",
+  "role": "admin",
+  "createdAt": "2025-09-24T08:00:00.000Z"
+}
+]

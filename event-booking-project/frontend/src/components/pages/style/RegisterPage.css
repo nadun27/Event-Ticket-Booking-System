@@ -1,0 +1,88 @@
+/* components/pages/style/RegisterPage.css */
+.register-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.name-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.password-hint {
+  font-size: 0.8rem;
+  color: var(--gray);
+  margin-top: 0.25rem;
+}
+
+.form-checkbox {
+  margin: 1rem 0;
+}
+
+.form-checkbox label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.inline-link {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.inline-link:hover {
+  text-decoration: underline;
+}
+
+.hero-benefits {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.benefit {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+}
+
+.benefit span {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.benefit strong {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.benefit p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .name-fields {
+    grid-template-columns: 1fr;
+  }
+  
+  .benefit {
+    flex-direction: column;
+    text-align: center;
+  }
+}

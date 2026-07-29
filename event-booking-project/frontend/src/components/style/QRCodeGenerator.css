@@ -1,0 +1,48 @@
+/* components/style/QRCodeGenerator.css */
+.qrcode-generator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.qr-placeholder {
+  background: white;
+  border: 2px solid var(--gray-light);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.qr-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  margin-bottom: 0.5rem;
+}
+
+.qr-cell {
+  width: 8px;
+  height: 8px;
+  background: white;
+  border: 1px solid var(--gray-light);
+}
+
+.qr-cell.filled {
+  background: var(--dark);
+}
+
+.qr-text {
+  font-size: 0.7rem;
+  color: var(--gray);
+  font-weight: 600;
+}
+
+.qr-value {
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: var(--gray);
+}

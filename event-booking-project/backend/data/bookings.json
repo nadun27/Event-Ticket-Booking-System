@@ -1,0 +1,62 @@
+[
+  {
+    "id": "B001",
+    "userId": "U001",
+    "eventId": "E001",
+    "eventTitle": "Summer Music Festival 2024",
+    "eventDate": "2024-08-15",
+    "eventTime": "18:00",
+    "eventVenue": "Central Park Amphitheater",
+    "ticketType": "vip",
+    "quantity": 2,
+    "totalAmount": 300,
+    "bookingDate": "2024-01-20T14:30:00.000Z",
+    "status": "confirmed",
+    "bookingReference": "REF-20240120143000"
+  },
+  {
+    "id": "B002",
+    "userId": "U002",
+    "eventId": "E002",
+    "eventTitle": "Tech Innovation Conference",
+    "eventDate": "2024-09-20",
+    "eventTime": "09:00",
+    "eventVenue": "Convention Center Downtown",
+    "ticketType": "regular",
+    "quantity": 1,
+    "totalAmount": 200,
+    "bookingDate": "2024-01-22T10:15:00.000Z",
+    "status": "confirmed",
+    "bookingReference": "REF-20240122101500"
+  },
+  {
+    "id": "B003",
+    "userId": "U001",
+    "eventId": "E003",
+    "eventTitle": "Basketball Championship Finals",
+    "eventDate": "2024-07-10",
+    "eventTime": "19:30",
+    "eventVenue": "City Sports Arena",
+    "ticketType": "regular",
+    "quantity": 4,
+    "totalAmount": 400,
+    "bookingDate": "2024-01-25T16:45:00.000Z",
+    "status": "confirmed",
+    "bookingReference": "REF-20240125164500"
+  },
+  {
+    "id": "B004",
+    "userId": "U003",
+    "eventId": "E004",
+    "eventTitle": "Broadway Musical: The Phantom",
+    "eventDate": "2024-10-05",
+    "eventTime": "20:00",
+    "eventVenue": "Grand Theater",
+    "ticketType": "vip",
+    "quantity": 2,
+    "totalAmount": 440,
+    "bookingDate": "2024-01-28T11:20:00.000Z",
+    "status": "pending",
+    "bookingReference": "REF-20240128112000"
+  }
+]
