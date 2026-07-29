@@ -207,7 +207,3 @@ Scan the QR code with the Expo Go app, or press `a` / `i` to launch on an Androi
 - This project uses flat JSON files instead of a database, which keeps setup dependency-free but isn't meant for concurrent production traffic — swap in a real database (e.g. MongoDB/Postgres) if you extend this into a production app.
 
 ---
-
-## 📄 License
-
-Add your license of choice here (e.g. MIT).
